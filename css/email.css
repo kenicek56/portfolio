@@ -1,0 +1,11 @@
+body {
+	background-image: url("http://media.tumblr.com/tumblr_m83iksD3kq1rcijlco1_500.gif");
+	background-size: 750px;
+	color: black;
+
+} 
+
+.email {
+	text-align: center;
+	border: 3px solid;
+}
