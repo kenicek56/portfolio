@@ -1,17 +1,22 @@
 body {
-	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
+	
 	background-size: 1370px;
 	font-family: 'Vernon Adams';
 	color: black;
-	margin-bottom: 1000px
-	margin-left: 100;
+	margin-bottom: 1000px;
+
 
 
 
 } 
 
+.container {
+	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
+}
+
 .Kenice-is-boss {
 	text-align: center;
 	border-style: groove;
+	border-radius: 70px;
 
 }
