@@ -1,6 +1,6 @@
 body {
 	background-image: url("http://3.bp.blogspot.com/_USbT7RlMSJA/TPSn4vaRqpI/AAAAAAAAAa0/_UA3mXjxznk/s1600/640.gif");
-	background-size: 800px;
+	background-size: 1300px;
 	color: black;
 
 
@@ -8,7 +8,8 @@ body {
 
 .projects-is-life {
 	text-align: center;
-	border: 3px solid;
+	border-style: double;
+	margin-bottom: 500px;
 }
 
 

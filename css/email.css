@@ -1,6 +1,6 @@
 body {
 	background-image: url("http://media.tumblr.com/tumblr_m83iksD3kq1rcijlco1_500.gif");
-	background-size: 750px;
+	background-size: 700px;
 	color: black;
 
 } 
@@ -8,4 +8,5 @@ body {
 .email {
 	text-align: center;
 	border: 3px solid;
+	margin-bottom: 1000px
 }
