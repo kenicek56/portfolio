@@ -6,12 +6,6 @@ body {
 
 } 
 
-.projects-is-life {
-	text-align: center;
-	border-style: double;
-	margin-bottom: 500px;
-}
-
 .navcontainer ul
 {
 padding-left: 0;
@@ -40,3 +34,13 @@ border-right: 1px solid #fff;
 background-color: lightgrey;
 color: black;
 }
+
+
+.projects-is-life {
+	text-align: center;
+	border-style: double;
+	margin-bottom: 500px;
+	margin-top:20px; 
+
+}
+
