@@ -168,12 +168,6 @@ img:last-of-type {
   background-attachment: fixed;
 }
 
-#slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-
 #slide4 {
   background: #222;
 }
