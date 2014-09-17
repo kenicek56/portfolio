@@ -1,11 +1,10 @@
-/*body {
-	/*background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");*/
-	/*background-size: cover;*/
-	/*margin-right: 30px*/
+body {
+	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
+	background-size: cover;
 
-	/*font-family: 'Vernon Adams';*/
-	/*color: black;*/
-/*} */
+	font-family: 'Vernon Adams';
+	color: black;
+}
 
 	
 
@@ -155,9 +154,6 @@ color: black;
 	border-style: double;
 	border-color: black;
 	border-radius: 70px;
-	padding-top: 50px;
-	margin-bottom: 150px;
-
 }
 	.About-me{
         border-style: groove;
