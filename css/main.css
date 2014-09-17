@@ -1,66 +1,16 @@
-body {
-	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
-	background-size: cover;
-	margin-right: 30px
+/*body {
+	/*background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");*/
+	/*background-size: cover;*/
+	/*margin-right: 30px*/
 
-	font-family: 'Vernon Adams';
-	color: black;
-} 
+	/*font-family: 'Vernon Adams';*/
+	/*color: black;*/
+/*} */
 
 	
-.Kenice-Washington {
-	text-align: center;
-	border-style: double;
-	border-color: black;
-	border-radius: 70px;
-	padding-top: 50px;
-	margin-bottom: 150px;
 
-}
-	.About-me{
-        border-style: groove;
-        border-color: black;
-		border-radius: 70px;
-		margin-bottom: 300px;
-	}
 
-.container {
 
-}
-
-h2{
-
-	text-align: center;
-}
-
-.navcontainer ul
-{
-padding-left: 0;
-margin-left: 0;
-background-color: #036;
-color: black;
-float: left;
-width: 100%;
-font-family: arial, helvetica, sans-serif;
-}
-
-#navcontainer ul li { display: inline; }
-
-#navcontainer ul li a
-{
-padding: 0.2em 1em;
-background-color: sienna;
-color: White;
-text-decoration: none;
-float: left;
-border-right: 1px solid #fff;
-}
-
-#navcontainer ul li a:hover
-{
-background-color: lightgrey;
-color: black;
-}
 html {
   height: 100%;
   overflow: hidden;
@@ -169,5 +119,58 @@ img:last-of-type {
 }
 
 #slide4 {
-  background: #222;
+  background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
+  background-size: 30px;
+}
+.navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #036;
+color: black;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+background-color: sienna;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+background-color: lightgrey;
+color: black;
+}
+.Kenice-Washington {
+	text-align: center;
+	border-style: double;
+	border-color: black;
+	border-radius: 70px;
+	padding-top: 50px;
+	margin-bottom: 150px;
+
+}
+	.About-me{
+        border-style: groove;
+        border-color: black;
+		border-radius: 70px;
+		margin-bottom: 300px;
+	}
+
+.container {
+
+}
+
+h2{
+
+	text-align: center;
 }
