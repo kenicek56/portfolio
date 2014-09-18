@@ -1,125 +1,9 @@
 body {
 	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
-	background-size: cover;
+	background-size: 1300px;
 
 	font-family: 'Vernon Adams';
 	color: white;
-}
-
-	
-
-
-
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
-body { 
-  margin:0;
-  padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: Nunito;
-}
-
-h1 {
-   font-size: 250%
-}
-
-p {
-  font-size: 140%;
-  line-height: 150%;
-  color: #333;
-}
-
-.slide {
-  position: relative;
-  padding: 25vh 10%;
-  min-height: 100vh;
-  width: 100vw;
-  box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-	transform-style: inherit;
-}
-
-img {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}
-
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right:0;
-}
-
-.title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-.slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.slide, .slide:before {
-  background: 50% 50% / cover;  
-}
-
-.header {
-  text-align: center;
-  font-size: 175%;
-  color: #fff;
-  text-shadow: 0 2px 2px #000;
-}
-
-#title {
-  background-image: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg");
-   background-attachment: fixed;  
-}
-
-#slide1:before {
-  background-image: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/DePA8lnQl9A/s1920/anime-cross-over-tsuna-sawada-natsu-dragneel-hei-reborn-fairy-tail-darker-than-black-wallpaper-hd-1920x1080.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-
-#slide2 {
-  background-image: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa6hjQDLF01chXRZqQxe3SYC1iZ1LpofXI2*8wHsLjjRelZT7-BtisvNwER80/19121162.jpg");
-  background-attachment: fixed;
-}
-
-#slide4 {
-  background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
-  background-size: 30px;
 }
 .navcontainer ul
 {
@@ -169,4 +53,47 @@ color: black;
 h2{
 
 	text-align: center;
+}
+	
+#home { 
+background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg") 50% 0 repeat fixed; min-height: 1000px;
+}
+ 
+#about { 
+background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/DePA8lnQl9A/s1920/anime-cross-over-tsuna-sawada-natsu-dragneel-hei-reborn-fairy-tail-darker-than-black-wallpaper-hd-1920x1080.jpg") 50% 0 no-repeat; min-height: 1000px;  
+}
+#home { 
+  background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 500%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url(<span class="skimlinks-unlinked">about-bg.jpg</span>) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
