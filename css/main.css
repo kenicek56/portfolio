@@ -147,4 +147,13 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   top: 150px; 
   width: 100%; 
 }
+#margin{
+	padding-top: 300px;
+}
+#opaque{
+	opacity: .5;
+	background-color: white;
+	margin-left: 50px;
+	margin-right: 400px;
+}
 
