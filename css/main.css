@@ -3,7 +3,7 @@ body {
 	background-size: 1300px;
 
 	font-family: 'Vernon Adams';
-	color: white;
+	color: black;
 }
 .navcontainer ul
 {
@@ -57,7 +57,7 @@ h2{
 p {
   font-size: 140%;
   line-height: 150%;
-  color: #333;
+  color: black;
 }
 #kenice { 
 background: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png") 50% 0 repeat fixed; min-height: 1000px;
@@ -72,7 +72,7 @@ background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/D
 }
 #kenice { 
   background: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png") 50% 0 repeat fixed; min-height: 1000px; 
-  background-size: cover;
+  background-size: 1250px;
   height: 1000px;
   margin: 0 auto; 
   width: 100%; 
