@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://3.bp.blogspot.com/_USbT7RlMSJA/TPSn4vaRqpI/AAAAAAAAAa0/_UA3mXjxznk/s1600/640.gif");
+	background-image: url();
 	background-size: 1300px;
 	color: black;
 
@@ -44,14 +44,14 @@ color: black;
 
 }
 #home { 
-background: url(<span class="skimlinks-unlinked">home-bg.jpg</span>) 50% 0 repeat fixed; min-height: 1000px;
+background: url("http://3.bp.blogspot.com/_USbT7RlMSJA/TPSn4vaRqpI/AAAAAAAAAa0/_UA3mXjxznk/s1600/640.gif") 50% 0 repeat fixed; min-height: 1000px;
 }
  
 #about { 
 background: url("http://cartoonsimply.com/wp-content/uploads/2014/04/death-note-de-115696.jpg") 50% 0 no-repeat min-height: 1000px;  
 }
 #home { 
-  background: url(<span class="skimlinks-unlinked">home-bg.jpg</span>) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://3.bp.blogspot.com/_USbT7RlMSJA/TPSn4vaRqpI/AAAAAAAAAa0/_UA3mXjxznk/s1600/640.gif") 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
