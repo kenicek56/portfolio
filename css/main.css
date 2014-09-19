@@ -54,6 +54,14 @@ h2{
 
 	text-align: center;
 }
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+#kenice { 
+background: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png") 50% 0 repeat fixed; min-height: 1000px;
+}
 	
 #home { 
 background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg") 50% 0 repeat fixed; min-height: 1000px;
@@ -62,12 +70,30 @@ background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-ani
 #about { 
 background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/DePA8lnQl9A/s1920/anime-cross-over-tsuna-sawada-natsu-dragneel-hei-reborn-fairy-tail-darker-than-black-wallpaper-hd-1920x1080.jpg") 50% 0 no-repeat; min-height: 1000px;  
 }
+#kenice { 
+  background: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png") 50% 0 repeat fixed; min-height: 1000px; 
+  background-size: cover;
+  height: 1000px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px;
+  position: relative; 
+}
+#kenice article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
 #home { 
   background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg") 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
+  background-size: cover;
+  height: 1000px;
   margin: 0 auto; 
-  width: 500%; 
-  max-width: 1920px; 
+  width: 100%; 
+  max-width: 1920px;
   position: relative; 
 }
  
@@ -80,7 +106,8 @@ background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/D
 }
  
 #about { 
-  background: url(<span class="skimlinks-unlinked">about-bg.jpg</span>) 50% 0 repeat fixed; min-height: 1000px; 
+  background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/DePA8lnQl9A/s1920/anime-cross-over-tsuna-sawada-natsu-dragneel-hei-reborn-fairy-tail-darker-than-black-wallpaper-hd-1920x1080.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  background-size: cover;
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -97,3 +124,4 @@ background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/D
   top: 150px; 
   width: 100%; 
 }
+
