@@ -6,6 +6,7 @@ body {
 
 } 
 
+
 .navcontainer ul
 {
 padding-left: 0;
@@ -87,3 +88,36 @@ background: url("http://cartoonsimply.com/wp-content/uploads/2014/04/death-note-
   width: 100%; 
 }
 
+@media screen and (max-width:959px){
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+
+   } 
+
+    @media screen and (max-width:640px){
+
+	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+
+    }  
+    @media screen and (max-width:320px){
+   	
+   	#home{
+   		width: 320px;
+   	}
+
+   	#about{
+   		width: 320px;
+   	}
+
+   }   

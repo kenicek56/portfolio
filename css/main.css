@@ -1,10 +1,68 @@
-body {
-	background-image: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png");
-	background-size: 1300px;
+ @media screen and (max-width:959px){
+   	#kenice{
+   		width: 100%;
+   	}
 
-	font-family: 'Vernon Adams';
-	color: black;
-}
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+   	#slide{
+   		width: 100%;
+   	}
+
+   	#About-Me{
+   		width: 100%;
+   	}
+
+   } 
+
+    @media screen and (max-width:640px){
+
+	#kenice{
+   		width: 100%;
+   	}
+
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+   	#slide{
+   		width: 100%;
+   	}
+   	#About-Me{
+   		width: 100%;
+   	}
+
+    }  
+    @media screen and (max-width:320px){
+   	#kenice{
+   		width: 320px;
+   	}
+
+   	#home{
+   		width: 320px;
+   	}
+
+   	#about{
+   		width: 320px;
+   	}
+   	#slide{
+   		width: 320px;
+   	}
+   		#About-Me{
+   		width: 320px;
+   	}
+
+   }   
+
+
 .navcontainer ul
 {
 padding-left: 0;
@@ -76,12 +134,10 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 }
 #kenice { 
   background: url("http://fc07.deviantart.net/fs71/i/2010/127/f/1/Haruhi___Obey_by_KuwiRules145.png") 50% 0 repeat fixed; min-height: 1000px; 
-  background-size: 1250px;
-  height: 1000px;
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px;
-  position: relative; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #kenice article { 
   height: 458px; 
@@ -93,12 +149,10 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 
 #home { 
   background: url("http://thewalldepot.com/wp-content/uploads/2014/08/hd-image-anime-backgrounds-anime-picture-anime-backgrounds.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 1000px;
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px;
-  position: relative; 
 }
  
 #home article { 
@@ -111,14 +165,10 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
  
 #about { 
   background: url("http://1.bp.blogspot.com/-odIPsVF5d50/UpwZSZjBNqI/AAAAAAAALpw/DePA8lnQl9A/s1920/anime-cross-over-tsuna-sawada-natsu-dragneel-hei-reborn-fairy-tail-darker-than-black-wallpaper-hd-1920x1080.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
  
 #about article { 
@@ -130,14 +180,10 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 }
 #slide { 
   background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa6hjQDLF01chXRZqQxe3SYC1iZ1LpofXI2*8wHsLjjRelZT7-BtisvNwER80/19121162.jpg") 50% 0 repeat fixed; min-height: 1000px; 
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
  
 #slide article { 
@@ -152,8 +198,13 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 }
 #opaque{
 	opacity: .5;
+	width: 500px;
 	background-color: white;
 	margin-left: 50px;
 	margin-right: 400px;
+
 }
 
+
+}
+  

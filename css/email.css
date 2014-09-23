@@ -1,7 +1,9 @@
 body {
 	background-image: url("http://media.tumblr.com/tumblr_m83iksD3kq1rcijlco1_500.gif");
-	background-size: 750px;
-	color: black;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 } 
 
