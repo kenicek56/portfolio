@@ -1,67 +1,6 @@
- @media screen and (max-width:959px){
-   	#kenice{
-   		width: 100%;
-   	}
-
-   	#home{
-   		width: 100%;
-   	}
-
-   	#about{
-   		width: 100%;
-   	}
-   	#slide{
-   		width: 100%;
-   	}
-
-   	#About-Me{
-   		width: 100%;
-   	}
-
-   } 
-
-    @media screen and (max-width:640px){
-
-	#kenice{
-   		width: 100%;
-   	}
-
-   	#home{
-   		width: 100%;
-   	}
-
-   	#about{
-   		width: 100%;
-   	}
-   	#slide{
-   		width: 100%;
-   	}
-   	#About-Me{
-   		width: 100%;
-   	}
-
-    }  
-    @media screen and (max-width:320px){
-   	#kenice{
-   		width: 320px;
-   	}
-
-   	#home{
-   		width: 320px;
-   	}
-
-   	#about{
-   		width: 320px;
-   	}
-   	#slide{
-   		width: 320px;
-   	}
-   		#About-Me{
-   		width: 320px;
-   	}
-
-   }   
-
+#title{
+	color: gold;
+}
 
 .navcontainer ul
 {
@@ -145,6 +84,7 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
   text-align: center; 
   top: 150px; 
   width: 100%; 
+  text-decoration: white;
 }
 
 #home { 
@@ -207,4 +147,76 @@ background: url("http://api.ning.com/files/j3TzjT9YQ3BMraiN-oOfWYxA88HNyzwd4swKa
 
 
 }
+ @media screen and (max-width:959px){
+   	#kenice{
+   		width: 100%;
+   	}
+
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+   	#slide{
+   		width: 100%;
+   	}
+
+   	#opaque {
+   		width: 100%;
+   	}
+
+
+   } 
+
+    @media screen and (max-width:568px){
+
+	#kenice{
+   		width: 100%;
+   	}
+
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+   	#slide{
+   		width: 100%;
+   	}
+   	#opaque {
+   		width: 100%;
+   	}
+
+   	img {
+   		width: 100%;
+   	}
+
+    }  
+    @media screen and (max-width:320px){
+   	#kenice{
+   		width: 100%;
+   	}
+
+   	#home{
+   		width: 100%;
+   	}
+
+   	#about{
+   		width: 100%;
+   	}
+   	#slide{
+   		width: 100%;
+   	}
+   	#opaque {
+   		width: 100%;
+   	}
+
+   	img {
+   		width: 100%;
+   	}
+
+   }   
   
